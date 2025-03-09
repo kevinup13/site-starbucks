@@ -72,3 +72,41 @@ header .line {
     width: 24px;
     height: 24px;
 }
+
+/* Banner */
+
+.banner {
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.banner h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.banner span {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner--images {
+    margin-top: 60px;
+}
+.banner--images img {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+.banner--images img:last-child {
+    margin-right: 0;
+}
