@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido a partir das aulas do curso de html e css da B7Web
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/kevinup13/site-starbucks.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
