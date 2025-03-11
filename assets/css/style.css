@@ -154,7 +154,7 @@ header .line {
     margin-right: 0;
 }
 
-/* Area1 & Area2 & Area3 */
+/* Area1 - Area2 - Area3 - Area4 */
 .area1, .area2, .area3 {
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -166,17 +166,10 @@ header .line {
     padding: 80px;
 }
 
-.area1--content .bar,
-.area2--content .bar {
-    font-family: 'Oswald', sans-serif;
-    font-size: 36px;    
-    font-weight: bold;    
-    margin-bottom: 20px;
-}
-
 .area1--content .area1--text,
 .area2--content .area2--text,
-.area3--content .area3--text {
+.area3--content .area3--text,
+.area4--content .area4--text {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;    
     margin-bottom: 20px;
@@ -236,9 +229,21 @@ header .line {
     background-position: center;
 }
 
+/* Area4 */
+.area4 {
+    display:grid;
+    grid-template-columns: 500px 1fr;
+    background-color: #e8e9ee;
+}
 
+.area4--content {
+    padding: 150px 80px;
+}
 
-
+.area4--img1 {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
 
 
 
