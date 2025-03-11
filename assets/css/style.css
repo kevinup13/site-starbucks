@@ -274,5 +274,18 @@ footer {
     font-size: 12px;
     margin-bottom: 3px;
 }
+.footer--content a {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+.footer--content a:hover {
+    color: #117050;
+    text-decoration: underline;
+}
 
 
